@@ -1,0 +1,209 @@
+{
+  "Andhra Pradesh": {
+    "Visakhapatnam": ["Central", "North", "South", "Residential", "Commercial", "Industrial"],
+    "Vijayawada": ["Central", "Benz Circle", "MG Road", "Residential", "Commercial"],
+    "Guntur": ["Central", "Arundelpet", "Lakshmipuram", "Residential"],
+    "Nellore": ["Central", "North", "South", "Residential", "Commercial"],
+    "Tirupati": ["Central", "Temple Area", "Residential", "Commercial"]
+  },
+  "Arunachal Pradesh": {
+    "Itanagar": ["Central", "Naharlagun", "Residential", "Commercial"],
+    "Naharlagun": ["Central", "Residential", "Commercial"],
+    "Pasighat": ["Central", "Residential", "Commercial"],
+    "Tawang": ["Central", "Town", "Residential"]
+  },
+  "Assam": {
+    "Guwahati": ["Central", "Dispur", "Paltan Bazar", "Residential", "Commercial"],
+    "Silchar": ["Central", "North", "South", "Residential", "Commercial"],
+    "Dibrugarh": ["Central", "Town", "Residential", "Industrial"],
+    "Jorhat": ["Central", "Residential", "Commercial"]
+  },
+  "Bihar": {
+    "Patna": ["Central", "Fraser Road", "Boring Road", "Residential", "Commercial"],
+    "Gaya": ["Central", "Temple Area", "Residential", "Commercial"],
+    "Bhagalpur": ["Central", "North", "South", "Residential", "Commercial"],
+    "Muzaffarpur": ["Central", "Residential", "Commercial"],
+    "Darbhanga": ["Central", "Residential", "Commercial"]
+  },
+  "Chhattisgarh": {
+    "Raipur": ["Central", "Telibandha", "Shankar Nagar", "Residential", "Commercial"],
+    "Bilaspur": ["Central", "Residential", "Commercial"],
+    "Durg": ["Central", "Residential", "Industrial"],
+    "Korba": ["Central", "Industrial", "Residential"]
+  },
+  "Goa": {
+    "Panaji": ["Central", "Fontainhas", "Caranzalem", "Residential", "Commercial"],
+    "Margao": ["Central", "Colva", "Residential", "Commercial"],
+    "Vasco da Gama": ["Central", "Residential", "Industrial", "Commercial"],
+    "Mapusa": ["Central", "Residential", "Commercial"]
+  },
+  "Gujarat": {
+    "Ahmedabad": ["Central", "Satellite", "Vastrapur", "SG Highway", "Residential", "Commercial"],
+    "Surat": ["Central", "Adajan", "Vesu", "Residential", "Commercial", "Industrial"],
+    "Vadodara": ["Central", "Alkapuri", "Manjalpur", "Residential", "Commercial"],
+    "Rajkot": ["Central", "Residential", "Commercial", "Industrial"],
+    "Bhavnagar": ["Central", "Residential", "Commercial"]
+  },
+  "Haryana": {
+    "Gurugram": ["Central", "DLF", "Sohna Road", "Sector", "Residential", "Commercial"],
+    "Faridabad": ["Central", "Sector", "NIT", "Residential", "Commercial"],
+    "Panipat": ["Central", "Residential", "Industrial"],
+    "Ambala": ["Central", "Cantt", "Residential", "Commercial"],
+    "Hisar": ["Central", "Residential", "Commercial"]
+  },
+  "Himachal Pradesh": {
+    "Shimla": ["Central", "Mall Road", "Lower Bazaar", "Residential", "Commercial"],
+    "Dharamshala": ["Central", "McLeod Ganj", "Residential", "Commercial"],
+    "Solan": ["Central", "Residential", "Commercial"],
+    "Mandi": ["Central", "Residential", "Commercial"]
+  },
+  "Jharkhand": {
+    "Ranchi": ["Central", "Morabadi", "Lalpur", "Residential", "Commercial"],
+    "Jamshedpur": ["Central", "Bistupur", "Sakchi", "Residential", "Industrial"],
+    "Dhanbad": ["Central", "Residential", "Industrial", "Commercial"],
+    "Bokaro": ["Central", "Sector", "Residential", "Industrial"]
+  },
+  "Karnataka": {
+    "Bengaluru": ["Central", "Indiranagar", "Koramangala", "Whitefield", "HSR Layout", "Jayanagar", "Residential", "Commercial"],
+    "Mysuru": ["Central", "Vijayanagar", "Gokulam", "Nazarbad", "Residential", "Commercial"],
+    "Hubballi": ["Central", "Residential", "Commercial"],
+    "Mangaluru": ["Central", "Kadri", "Residential", "Commercial"],
+    "Belagavi": ["Central", "Camp", "Residential", "Commercial"]
+  },
+  "Kerala": {
+    "Thiruvananthapuram": ["Central", "Pattom", "Kazhakootam", "Residential", "Commercial"],
+    "Kochi": ["Central", "Fort Kochi", "Edappally", "Marine Drive", "Residential", "Commercial"],
+    "Kozhikode": ["Central", "Beach Road", "Residential", "Commercial"],
+    "Thrissur": ["Central", "Swaraj Round", "Residential", "Commercial"],
+    "Kollam": ["Central", "Residential", "Commercial"]
+  },
+  "Madhya Pradesh": {
+    "Bhopal": ["Central", "New Market", "MP Nagar", "Residential", "Commercial"],
+    "Indore": ["Central", "Vijay Nagar", "Sapna Sangeeta", "Residential", "Commercial"],
+    "Jabalpur": ["Central", "Residential", "Commercial"],
+    "Gwalior": ["Central", "Residential", "Commercial"],
+    "Ujjain": ["Central", "Temple Area", "Residential", "Commercial"]
+  },
+  "Maharashtra": {
+    "Mumbai": ["Central", "Andheri", "Bandra", "Borivali", "Dadar", "Kurla", "Powai", "Residential", "Commercial"],
+    "Pune": ["Central", "Hinjewadi", "Kothrud", "Shivajinagar", "Wakad", "Hadapsar", "Viman Nagar", "Residential", "Commercial"],
+    "Nagpur": ["Central", "Dharampeth", "Sitabuldi", "Manish Nagar", "Residential", "Commercial"],
+    "Thane": ["Central", "Ghodbunder Road", "Residential", "Commercial"],
+    "Nashik": ["Central", "Satpur", "Residential", "Commercial"],
+    "Aurangabad": ["Central", "Cidco", "Residential", "Commercial"]
+  },
+  "Manipur": {
+    "Imphal": ["Central", "Thangal Bazar", "Residential", "Commercial"],
+    "Thoubal": ["Central", "Residential", "Commercial"]
+  },
+  "Meghalaya": {
+    "Shillong": ["Central", "Police Bazar", "Laitumkhrah", "Residential", "Commercial"],
+    "Tura": ["Central", "Residential", "Commercial"]
+  },
+  "Mizoram": {
+    "Aizawl": ["Central", "Zarkawt", "Residential", "Commercial"],
+    "Lunglei": ["Central", "Residential", "Commercial"]
+  },
+  "Nagaland": {
+    "Kohima": ["Central", "PWD", "Residential", "Commercial"],
+    "Dimapur": ["Central", "Town", "Residential", "Commercial"]
+  },
+  "Odisha": {
+    "Bhubaneswar": ["Central", "Sahid Nagar", "Vani Vihar", "Residential", "Commercial"],
+    "Cuttack": ["Central", "Buxi Bazar", "Residential", "Commercial"],
+    "Rourkela": ["Central", "Sector", "Residential", "Industrial"],
+    "Berhampur": ["Central", "Residential", "Commercial"]
+  },
+  "Punjab": {
+    "Chandigarh": ["Sector 17", "Sector 22", "Sector 35", "Residential", "Commercial"],
+    "Ludhiana": ["Central", "Model Town", "Residential", "Commercial", "Industrial"],
+    "Amritsar": ["Central", "Lawrence Road", "Residential", "Commercial"],
+    "Jalandhar": ["Central", "Residential", "Commercial"],
+    "Patiala": ["Central", "Residential", "Commercial"]
+  },
+  "Rajasthan": {
+    "Jaipur": ["Central", "C Scheme", "Malviya Nagar", "Vaishali", "Residential", "Commercial"],
+    "Jodhpur": ["Central", "Residential", "Commercial"],
+    "Udaipur": ["Central", "Fateh Sagar", "Residential", "Commercial"],
+    "Kota": ["Central", "Residential", "Industrial"],
+    "Bikaner": ["Central", "Residential", "Commercial"]
+  },
+  "Sikkim": {
+    "Gangtok": ["Central", "MG Marg", "Residential", "Commercial"],
+    "Namchi": ["Central", "Residential", "Commercial"]
+  },
+  "Tamil Nadu": {
+    "Chennai": ["Central", "T Nagar", "Adyar", "Velachery", "Anna Nagar", "Tambaram", "Residential", "Commercial"],
+    "Coimbatore": ["Central", "RS Puram", "Residential", "Commercial", "Industrial"],
+    "Madurai": ["Central", "KK Nagar", "Residential", "Commercial"],
+    "Tiruchirappalli": ["Central", "Residential", "Commercial"],
+    "Salem": ["Central", "Residential", "Commercial"]
+  },
+  "Telangana": {
+    "Hyderabad": ["Central", "Gachibowli", "Madhapur", "Kukatpally", "Secunderabad", "Banjara Hills", "Residential", "Commercial"],
+    "Warangal": ["Central", "Residential", "Commercial"],
+    "Nizamabad": ["Central", "Residential", "Commercial"],
+    "Karimnagar": ["Central", "Residential", "Commercial"]
+  },
+  "Tripura": {
+    "Agartala": ["Central", "Residential", "Commercial"],
+    "Udaipur": ["Central", "Residential", "Commercial"]
+  },
+  "Uttar Pradesh": {
+    "Lucknow": ["Central", "Gomti Nagar", "Hazratganj", "Residential", "Commercial"],
+    "Kanpur": ["Central", "Residential", "Commercial", "Industrial"],
+    "Ghaziabad": ["Central", "Vasundhara", "Indirapuram", "Residential", "Commercial"],
+    "Noida": ["Central", "Sector", "Residential", "Commercial"],
+    "Varanasi": ["Central", "Cantt", "Residential", "Commercial"],
+    "Agra": ["Central", "Taj Area", "Residential", "Commercial"],
+    "Allahabad": ["Central", "Civil Lines", "Residential", "Commercial"]
+  },
+  "Uttarakhand": {
+    "Dehradun": ["Central", "Rajpur Road", "Residential", "Commercial"],
+    "Haridwar": ["Central", "Temple Area", "Residential", "Commercial"],
+    "Haldwani": ["Central", "Residential", "Commercial"],
+    "Rudrapur": ["Central", "Residential", "Industrial"]
+  },
+  "West Bengal": {
+    "Kolkata": ["Central", "Park Street", "Salt Lake", "Howrah", "Residential", "Commercial"],
+    "Howrah": ["Central", "Residential", "Commercial", "Industrial"],
+    "Durgapur": ["Central", "Sector", "Residential", "Industrial"],
+    "Siliguri": ["Central", "Sevoke Road", "Residential", "Commercial"],
+    "Asansol": ["Central", "Residential", "Industrial"]
+  },
+  "Andaman and Nicobar Islands": {
+    "Port Blair": ["Central", "Junglighat", "Residential", "Commercial"],
+    "Diglipur": ["Central", "Residential", "Commercial"]
+  },
+  "Chandigarh": {
+    "Chandigarh": ["Sector 17", "Sector 22", "Sector 35", "Sector 43", "Residential", "Commercial"]
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "Daman": ["Central", "Residential", "Commercial"],
+    "Diu": ["Central", "Residential", "Commercial"],
+    "Silvassa": ["Central", "Residential", "Commercial", "Industrial"]
+  },
+  "Delhi": {
+    "New Delhi": ["Central", "Connaught Place", "Karol Bagh", "Saket", "Dwarka", "Rohini", "Residential", "Commercial"],
+    "North Delhi": ["Central", "Residential", "Commercial"],
+    "South Delhi": ["Central", "Residential", "Commercial"],
+    "East Delhi": ["Central", "Residential", "Commercial"],
+    "West Delhi": ["Central", "Residential", "Commercial"]
+  },
+  "Jammu and Kashmir": {
+    "Srinagar": ["Central", "Lal Chowk", "Residential", "Commercial"],
+    "Jammu": ["Central", "Residential", "Commercial"],
+    "Anantnag": ["Central", "Residential", "Commercial"]
+  },
+  "Ladakh": {
+    "Leh": ["Central", "Main Market", "Residential", "Commercial"],
+    "Kargil": ["Central", "Residential", "Commercial"]
+  },
+  "Lakshadweep": {
+    "Kavaratti": ["Central", "Residential", "Commercial"]
+  },
+  "Puducherry": {
+    "Puducherry": ["Central", "White Town", "Residential", "Commercial"],
+    "Karaikal": ["Central", "Residential", "Commercial"]
+  }
+}

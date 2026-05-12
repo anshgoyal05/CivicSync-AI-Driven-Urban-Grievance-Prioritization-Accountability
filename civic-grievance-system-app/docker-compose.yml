@@ -1,0 +1,41 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: civic
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - civic_pg:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    environment:
+      ENVIRONMENT: production
+      SECRET_KEY: ${SECRET_KEY:-change-me-in-prod}
+      DATABASE_URL: postgresql+psycopg2://postgres:postgres@db:5432/civic
+      CORS_ALLOW_ORIGINS: http://localhost:3000
+      RATE_LIMIT_PER_MINUTE: 120
+      MAX_UPLOAD_MB: 8
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    volumes:
+      - backend_uploads:/app/app/storage/uploads
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_API_BASE: http://localhost:8000/api/v1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  civic_pg:
+  backend_uploads:
