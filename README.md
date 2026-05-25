@@ -209,7 +209,3 @@ Managed with Alembic (`backend/alembic/`).
 - **File storage**: uploads use a Docker volume by default; swap in object storage by extending `backend/app/services/storage.py` if needed.
 
 ---
-
-## License
-
-Specify your license here (for example MIT, Apache-2.0, or proprietary).
