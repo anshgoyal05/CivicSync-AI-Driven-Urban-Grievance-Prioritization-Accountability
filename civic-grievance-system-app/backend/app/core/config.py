@@ -35,5 +35,8 @@ class Settings(BaseSettings):
     # Rate limiting
     rate_limit_per_minute: int = 60
 
+    # OAuth (optional — set to enable Google sign-in)
+    google_client_id: str | None = None
+
 
 settings = Settings()
