@@ -19,7 +19,8 @@ for i in range(60):
         conn.close()
         print("Database is ready.")
         raise SystemExit(0)
-    except Exception:
+    except Exception as e:
+        print(f"Waiting for database... Connection failed: {e}")
         time.sleep(1)
 
 raise SystemExit("Database not ready after 60s")
