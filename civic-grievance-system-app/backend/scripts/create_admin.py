@@ -23,9 +23,10 @@ def main() -> int:
         existing = get_user_by_email(db, email)
         if existing:
             existing.role = "admin"
+            existing.password_hash = hash_password(password)
             db.add(existing)
             db.commit()
-            print(f"Promoted existing user to admin: {existing.email}")
+            print(f"Promoted existing user to admin and updated password: {existing.email}")
             return 0
 
         user = User(name=name.strip(), email=email.lower(), password_hash=hash_password(password), role="admin")
