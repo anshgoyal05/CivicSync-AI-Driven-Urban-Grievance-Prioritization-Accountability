@@ -29,6 +29,9 @@ PY
 echo "Running migrations..."
 alembic upgrade head
 
+echo "Creating default admin user..."
+python scripts/create_admin.py "Admin" "admin@example.com" "YourSecurePassword!"
+
 echo "Starting API..."
 exec uvicorn app.main:app --host 0.0.0.0 --port 8000
 
